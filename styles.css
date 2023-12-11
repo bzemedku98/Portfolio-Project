@@ -1,3 +1,22 @@
 body {
-    background: linear-gradient(100deg, #fff, #fff);
+    background: linear-gradient(100deg, #ffffff, #ffffff);
 }
+
+.container {
+    display: inline-block;
+}
+
+.Typewriter {
+    overflow: hidden;
+    border-right: .15em;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+        typing 1s steps(20, end) forwards;
+  }
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
