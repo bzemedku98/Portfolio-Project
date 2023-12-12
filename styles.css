@@ -20,3 +20,8 @@ body {
     to { width: 100% }
   }
 
+#projects {
+    display: flex;
+    align-items: center;
+    
+}
